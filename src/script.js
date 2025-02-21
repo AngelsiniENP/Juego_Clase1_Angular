@@ -28,7 +28,7 @@ let wave = 1;
 const maxWaves = 5;
 
 const heartImage = new Image();
-heartImage.src = "/Angular/Juego/img/corazon.png";
+heartImage.src = "/src/img/corazon.png";
 
 let heartLoaded = false;
 heartImage.onload = () => {
@@ -36,7 +36,7 @@ heartImage.onload = () => {
 };
 
 const playerImage = new Image();
-playerImage.src = "/Angular/Juego/img/personaje.png"; // Ruta donde guardaste la imagen
+playerImage.src = "/src/img/personaje.png"; // Ruta donde guardaste la imagen
 
 let playerLoaded = false;
 playerImage.onload = () => {
@@ -244,7 +244,7 @@ function drawWalls() {
 
 
 const enemyImage = new Image();
-enemyImage.src = "/Angular/Juego/img/enemigo.png"; // Ruta donde guardaste la imagen
+enemyImage.src = "/src/img/enemigo.png"; // Ruta donde guardaste la imagen
 
 let enemyLoaded = false;
 enemyImage.onload = () => {

@@ -1,7 +1,7 @@
 body {
     margin: 0;
     overflow: hidden;
-    background: url('/Angular/Juego/img/fondo.png');
+    background: url('/src/img/fondo.png');
     background-size: cover;
     /* background: #000; */
 }
